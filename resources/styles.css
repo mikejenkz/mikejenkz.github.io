@@ -1,4 +1,56 @@
-p {
-    color: red;
-    font-size: larger;
+button {
+    float:right;
+    position: relative;
+    margin-right: 0;
+    display: inline-block;
+    background-color: greenyellow;
+    padding: 5px;
+    width: 120px;
+    color: black;
+    text-align: center;
+    border: 2px double #cccccc;
+    border-radius: 7px;
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer; /* add this line */
+    -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
+    -moz-transition: all 0.5s; /* add this line, firefox */
+    -o-transition: all 0.5s; /* add this line, opera */
+    transition: all 0.5s; /* add this line */
+  }
+
+button:hover {
+    background-color: blanchedalmond;
 }
+
+p {
+    position: relative;
+    top: -25px;
+    left: 200px;
+    color: greenyellow;
+    font-size: 3.5em;
+    text-align: left;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+z {
+    position: relative;
+    top: 25px;
+    left: 200px;
+    color: greenyellow;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+x {
+    position: relative;
+    top: -75px;
+    left: 275px;
+    color: greenyellow;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
