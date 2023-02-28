@@ -113,7 +113,10 @@ yxx {
 }
 
 #myimage3{
+    position: absolute;
+    left: 0%;
     height: 4vw;
     width: 4vw;
+    background-size: cover;
 }
 
