@@ -11,7 +11,8 @@ button {
     border: 2px double black;
     border-radius: 7px;
     font-size: 1.00vw;
-    margin-left: 20px;
+    margin-left: 2vw;
+    font-family: "Lucida Console", "Courier New", monospace;
     cursor: pointer; /* add this line */
     -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
     -moz-transition: all 0.5s; /* add this line, firefox */
@@ -21,6 +22,7 @@ button {
 
 button:hover {
     background-color: blanchedalmond;
+    color: red;
 }
 
 
@@ -29,7 +31,7 @@ z {
     top: 5vw;
     left: 10vw;
     color: greenyellow;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     text-align: left;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -38,9 +40,10 @@ p {
     top: 1vw;
     left: 14vw;
     color: greenyellow;
-    font-size: 3.2vw;
+    font-size: 4.5vw;
     text-align: left;
     font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
 }
 
 
@@ -49,7 +52,7 @@ x {
     top: -2vw;
     left: 17vw;
     color: greenyellow;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     text-align: left;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -59,7 +62,45 @@ y {
     margin-left: 20vw;
 }
 
+buttonBig {
+    position: relative;
+    top: -8vw;
+    left: 15vw;
+    margin-left: 4vw;
+    display: inline-block;
+    background-color: yellowgreen;
+    padding: 5px;
+    width: 12vw;
+    color: black;
+    text-align: center;
+    border: 2px double black;
+    border-radius: 7px;
+    font-size: 1.5vw;
+    font-family: "Lucida Console", "Courier New", monospace;
+    cursor: pointer; /* add this line */
+    -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
+    -moz-transition: all 0.5s; /* add this line, firefox */
+    -o-transition: all 0.5s; /* add this line, opera */
+    transition: all 0.5s;
 
+}
+
+buttonBig:hover {
+    background-color: blanchedalmond;
+    color: red;
+}
+
+yx {
+    position: relative;
+    left: -31vw;
+    top: -2vw;
+}
+
+yxx {
+    position: relative;
+    left: -22.25vw;
+    top: -2vw;
+}
 
 #myimage{
     height: 4vw;
