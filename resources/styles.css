@@ -49,7 +49,7 @@ p {
 
 x {
     position: relative;
-    top: -2vw;
+    top: clamp(-20px, -2vw, 10px);
     left: 17vw;
     color: greenyellow;
     font-size: clamp(16px, 2.5vw, 20px);
