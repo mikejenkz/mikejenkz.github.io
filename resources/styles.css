@@ -31,16 +31,16 @@ z {
     top: 5vw;
     left: 10vw;
     color: greenyellow;
-    font-size: 2.5vw;
+    font-size: clamp(16px, 3.5vw, 20px);
     text-align: left;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 p {
     position: relative;
-    top: 1vw;
+    top: 2vw;
     left: 14vw;
     color: greenyellow;
-    font-size: 4.5vw;
+    font-size: clamp(20px, 4.5vw, 50px);
     text-align: left;
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight: bold;
@@ -52,7 +52,7 @@ x {
     top: -2vw;
     left: 17vw;
     color: greenyellow;
-    font-size: 2.5vw;
+    font-size: clamp(16px, 2.5vw, 20px);
     text-align: left;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -64,7 +64,7 @@ y {
 
 buttonBig {
     position: relative;
-    top: -8vw;
+    top: -5vw;
     left: 15vw;
     margin-left: 4vw;
     display: inline-block;
@@ -93,13 +93,13 @@ buttonBig:hover {
 yx {
     position: relative;
     left: -31vw;
-    top: -2vw;
+    top: 2vw;
 }
 
 yxx {
     position: relative;
     left: -22.25vw;
-    top: -2vw;
+    top: 2vw;
 }
 
 #myimage{
