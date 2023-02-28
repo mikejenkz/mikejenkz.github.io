@@ -5,12 +5,12 @@ button {
     display: inline-block;
     background-color: greenyellow;
     padding: 5px;
-    width: 120px;
+    width: 10vw;
     color: black;
     text-align: center;
-    border: 2px double #cccccc;
+    border: 2px double black;
     border-radius: 7px;
-    font-size: 14px;
+    font-size: 1.00vw;
     margin-left: 20px;
     cursor: pointer; /* add this line */
     -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
@@ -23,34 +23,56 @@ button:hover {
     background-color: blanchedalmond;
 }
 
-p {
-    position: relative;
-    top: -25px;
-    left: 200px;
-    color: greenyellow;
-    font-size: 3.5em;
-    text-align: left;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
 
 z {
     position: relative;
-    top: 25px;
-    left: 200px;
+    top: 5vw;
+    left: 10vw;
     color: greenyellow;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     text-align: left;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+p {
+    position: relative;
+    top: 1vw;
+    left: 14vw;
+    color: greenyellow;
+    font-size: 3.2vw;
+    text-align: left;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
 
 x {
     position: relative;
-    top: -75px;
-    left: 275px;
+    top: -2vw;
+    left: 17vw;
     color: greenyellow;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     text-align: left;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+y {
+    position: relative;
+    margin-left: 20vw;
+}
+
+
+
+#myimage{
+    height: 4vw;
+    width: 4vw;
+}
+
+#myimage2{
+    height: 4vw;
+    width: 4vw;
+}
+
+#myimage3{
+    height: 4vw;
+    width: 4vw;
+}
 
